@@ -1,0 +1,64 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+.container {
+   background: linear-gradient(#f00, orange);
+   height: 100vh;
+}
+
+.card-container {
+   /* margin: auto; */
+   width: 60%;
+   height: 60%;
+   background-color: #fff;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: flex;
+}
+
+.card-0, .card-1 {
+   background-color: plum;
+   width: 50%;
+   text-align: center;
+
+}
+
+.btn-section {
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   left: 50%;
+   transform: translateX(-50%);
+   padding: 10% 0px;
+}
+
+.card-1 {
+   background-color: antiquewhite;
+}
+
+.player-0, .player-1{
+   margin: 10% 0px
+}
+
+.current-score-card-0, .current-score-card-1{
+   position:absolute;
+   bottom: 10%;
+   left: 25%;
+   transform: translateX(-50%);
+   background-color:coral;
+   padding: 5%;
+   border-radius: 10px; 
+}
+
+.current-score-card-1 {
+   left: 75%;
+}
+
+.current-0, .current-1{
+   margin-bottom: 10px;
+}
